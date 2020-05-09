@@ -49,7 +49,7 @@ server_addr = 172.18.30.124  # 服务器ip
 server_port = 7000  # 上一步服务器配置的端口号
 token=sDesQJk@KlO  # 上一步配置的客户端连接服务器端的口令
 
-[ssh]
+[ssh] # 注意ssh可能是有重复，如果有重复改成ssh1，ssh2，ssh3...
 type = tcp
 local_ip = 127.0.0.1
 local_port = 22  # 穿透的本地端口
